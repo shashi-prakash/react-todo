@@ -101,8 +101,8 @@ p{
     input[type="text"] {
         width: 63% !important;
         margin: 35px 0px 0 10px !important;
-        background: white;
-        border: none;
+        background: white !important;
+        border: none !important;
     }
 
 }
