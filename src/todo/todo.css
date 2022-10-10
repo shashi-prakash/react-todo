@@ -1,0 +1,106 @@
+body{
+    background-color: lightblue;
+}
+.container{
+    width: 400px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgb(119, 114, 194);
+}
+.result{
+    max-height: 160px;
+    overflow-x: auto;
+    background-color: rgb(119, 114, 194);
+}
+.header{
+    text-align: center;
+    background-color: blue;
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+}
+input[type="text"]{
+    width: 70%;
+    padding: 10px 20px;
+    margin: 20px 0px 0 10px;
+    font-size: 15px;
+}
+input:focus{
+    outline: none;
+}
+.button-add{
+    padding: 11.4px;
+    background-color: aquamarine;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.list-heading{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 19px;
+}
+.listData{
+    color: black;
+    background-color: white;
+    padding: 6px;
+    margin: 0px 27px;
+    width: 70%;
+    border-radius: 6px;
+}
+p{
+    position: relative;
+}
+.remove-list{
+    position: absolute;
+    right: 13%;
+    top: 0px;
+    background-color: red;
+    padding: 5px 12px;
+    border-radius: 6px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.removeAll{
+    position: relative;
+    padding: 7px;
+    background-color: red;
+    border: none;
+    color: white;
+    bottom: 0px;
+    left:30%;
+    right: 0;
+    font-size: 14px;
+    top: 10%;
+    margin: 20px;
+    cursor: pointer;
+}
+.errormsg{
+    color: red;
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+}
+@media(max-width:767px) {
+    body{
+        background-color: rgb(119, 114, 194) !important;
+    }
+    .container{
+        width: 312px;
+    }
+    input[type="text"] {
+        width: 63% !important;
+        margin: 35px 0px 0 10px !important;
+    }
+    
+}
