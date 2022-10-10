@@ -93,7 +93,7 @@ p{
 }
 @media(max-width:767px) {
     body{
-        background-color: rgb(119, 114, 194) !important;
+        
     }
     .container{
         width: 312px;
